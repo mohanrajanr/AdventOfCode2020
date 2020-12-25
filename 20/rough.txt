@@ -1,0 +1,35 @@
+            if curr_coord[0] < neighbour[0]:
+                # Check right side
+                if curr_coord[1] < neighbour[1]:
+                    # Check Right Down
+                    pass
+                elif curr_coord[1] == neighbour[1]:
+                    # Check Right Most
+                    pass
+                else:
+                    # Check Right Top
+                    pass
+
+            elif curr_coord[0] == neighbour[0]:
+                # Check Top or Bottom Most
+                if curr_coord[1] < neighbour[1]:
+                    # Check Bottom
+                    pass
+                else:
+                    # Check Top
+                    pass
+
+            else:
+                # Check Left Side
+                if curr_coord[1] < neighbour[1]:
+                    # Check Left Down
+                    pass
+                elif curr_coord[1] == neighbour[1]:
+                    # Check Left Most
+                    pass
+                else:
+                    # Check Left Top
+                    pass
+
+            Key Trying:1951 C:0
+            Key Testing:2729 C:1
